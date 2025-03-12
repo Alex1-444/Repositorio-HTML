@@ -1,35 +1,39 @@
 <!DOCTYPE html>
-    <html long="esp">
+    <html lang="en">
+
         <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="./noticias.css" />
+            <link rel="stylesheet" href="./reset.css">
             <title>pagina de practica</title>
         </head>
 
 
-        <body>
+        <body id="principal">
             <header>
-                <h1>Noticias para todos, en cualquier lugar</h1>
-
-                <span>HOME</span>
-                <span>NOTICIAS</span>
-                <span>CLIMA</span>
-                <span>DEPORTES</span>
-                <span>FINANZAS</span>
-                <span>TECNOLOGIA</span>
+              <div id="menu">
+                  <span><a href="#">HOME</a></span>
+                  <span><a href="#">NOTICIAS</a></span>
+                  <span><a href="#">CLIMA</a></span>
+                  <span><a href="#">DEPORTES</a></span>
+                  <span><a href="#">FINANZAS</a></span>
+                  <span><a href="#">TECNOLOGIA</a></span>
+              </div>
             </header>
                               
             <hr />
             
             <main>
-
-                <img src="https://imagenes.muyinteresante.es/files/article_social_75/uploads/2023/04/24/64462057787fd.jpeg">
+                <div class="imagen-container">
+                    <img src="https://imagenes.muyinteresante.es/files/article_social_75/uploads/2023/04/24/64462057787fd.jpeg" />
+                </div>
 
                 <section>
-                    <h2>GTA VI: Una revolucion en el mundo de los videojuegos</h2>
+                    <article class="articulos">
 
-                    <article>
-                       
+                        <h2>GTA VI: Una revolucion en el mundo de los videojuegos</h2>
+
                             <h3>El regreso a vice city con innovaciones tecnologicas y narrativas</h3>
 
                             <div>
@@ -39,15 +43,20 @@
                                 </p>
                             </div>
             
-                            
-            
+                        
                     </article>
     
                     <hr />
 
-                    <article>
+                    <div id="gta6-container">
+                        <img src="https://i.blogs.es/dd4e1a/e76afb589f6de46403189fa47865e649_thumb_fb/1366_2000.jpeg" class="gta6">
+                        <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/07/gta-vi-grand-theft-auto-vi-2762629.jpg" class="gta6">
+                        <img src="https://pbs.twimg.com/media/F-IVUq4W0AAIXq9?format=jpg&name=4096x4096" class="gta6">
+                    </div>
 
-                        <h3>Grok: La nueva frontera de la IA conversacional</h3>
+                    <article class="articulos">
+
+                        <h2>Grok: La nueva frontera de la IA conversacional</h2>
 
                         <p>
                             Elon Musk no es ajeno a las grandes proclamaciones y esta vez no ha sido la excepcion. Ha presentado Grok, una plataforma de IA diseñada para rivalizar con el ya establecido ChatGPT de OpenAI.
@@ -57,8 +66,7 @@
                         <p>
                             Aqui te dejamos una pequeña lista de noticias que te puedan interesar.
                         </p>
-                            
-        
+
                         <ol>
                             <li><a href="https://abejorro.com/rappi-la-aplicacion-que-revoluciono-el-delivery/">Rappi: La aplicacion que revoluciono el delivery</a></li>
                             <li><a href="https://abejorro.com/escandalo-en-ipn-fiscalia-indaga-venta-ilegal-de-fotos-ia/">Escandalo en IPN: fiscalia indaga venta de fotos IA</a></li>
@@ -66,11 +74,15 @@
                         </ol>
                     </article>
 
-                    <hr />
+                    <div id="mind-container">
+                        <img src="https://w0.peakpx.com/wallpaper/262/444/HD-wallpaper-artificial-intelligence-cyber-intelligence.jpg" class="mind">
+                        <img src="https://png.pngtree.com/background/20230410/original/pngtree-artificial-intelligence-technology-robot-sci-fi-background-picture-image_2381454.jpg" class="mind">
+                        <img src="https://elements-video-cover-images-0.imgix.net/files/6e3d10bb-2dfc-4bd8-a33a-74714cfe0880/inline_image_preview.jpg?auto=compress%2Cformat&h=394&w=700&fit=min&s=3c7e56d6a322fd73aafe5054488e49fd" class="mind">
+                    </div>
 
-                    <article>
-                        <h3>esta es la noticia Nº 3</h3>
-                        <p>esta es una seccion de una lista desordenada</p>
+                    <article class="articulos">
+                        <h3>Esta es la noticia Nº 3</h3>
+                        <p>Esta es una seccion de una lista desordenada</p>
 
                         <ul>
                             <li>Este es el item 1</li>
@@ -86,11 +98,18 @@
                 
 
             <footer>
-                <p>
-                este es el footer de mi pagina, ahora pondre algunos enlaces
-                </p>
 
-                <a href="./contacto.html">formulario de contacto</a>
+                <div class="footer-boton">
+                    <a href="./contacto.html" class="boton">Registrate</a>
+                </div>
+
+
+                <div class="social-networks">
+                    <span>Facebook</span>
+                    <span>Instagram</span>
+                    <span>Youtube</span>
+                 </div>
+
             </footer>
         </body>
     </html>

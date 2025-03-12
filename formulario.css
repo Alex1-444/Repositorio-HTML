@@ -1,0 +1,117 @@
+
+/* formulario elegante, fondo blanco, con placeholder y boton de enviar */
+
+.header-container p {
+    color: #00fffc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+#form-container {
+    width: 60%;
+    height: 35vw;
+    border: 3px double #00fffc;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#background {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.header-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    z-index: 2; /* Valor más alto para estar por encima del formulario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#form-container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    z-index: 1; /* Valor inferior para estar detrás del encabezado */
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+input::placeholder {
+    color: #999;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.buton-form {
+    font-family: sans-serif;
+    padding-left: 15px;
+    font-weight: inherit;
+    font-size: 16px;
+    padding: 6px;
+    width: fit-content;
+    background-color: #00ffff;
+    border: 1px solid #ccc;
+    margin-top: 3vw;
+    padding: 10px;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 6px;
+    color: #838383;
+}
+
+.buton-container {
+    display: flex;
+    justify-content: center;
+}
+
